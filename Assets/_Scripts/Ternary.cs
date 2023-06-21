@@ -27,6 +27,11 @@ namespace Zef.TutoUnityFr
             {
                 Debug.Log("x est égal à y");
             }*/
+
+            string result = x > y ? "x est supérieur à y" :
+                x < y ? "x est inférieur à y" :
+                x == y ? "x est égal à y" : "Pas de résultat";
+            Debug.Log(result);
             
            
         }
@@ -34,6 +39,7 @@ namespace Zef.TutoUnityFr
         // Update is called once per frame
         void Update()
         {
+            /*
             switch (x.CompareTo(y))
             {
                 case 1:
@@ -45,7 +51,9 @@ namespace Zef.TutoUnityFr
                 default:
                     Debug.Log("x est égal à y");
                     break;
-            }
+            }*/
         }
+
+        
     }
 }
